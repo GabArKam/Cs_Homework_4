@@ -8,7 +8,7 @@ void MyArray(int[] col)
     for (int index = 0; index < set.Length; index++)
     {
         Console.Write($"Введите элемент массива под индексом {index}:\t");
-        set[index] = int.Parse(Console.ReadLine());
+        set[index] = Convert.ToInt32(Console.ReadLine());
     }
 
     Console.Write("Вывод массива:\t");
